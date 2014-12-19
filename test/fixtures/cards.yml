@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  selected: MyText
+  player: 1
+
+two:
+  selected: MyText
+  player: 1
