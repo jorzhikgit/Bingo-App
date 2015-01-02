@@ -1,4 +1,13 @@
 Bingoapp::Application.routes.draw do
+  # static routes
+  get "static_pages/login", to: "home"
+  get "static_pages/card", to: "card"
+  get "static_pages/createTile", to: "createTile"
+  get "static_pages/manageUsers", to: "manageUsers"
+  get "static_pages/selectCard", to: "selectCard"
+  root to: "home"
+
+  # Scaffolded Resources
   resources :players
 
   resources :cards
